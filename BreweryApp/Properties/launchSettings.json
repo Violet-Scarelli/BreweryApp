@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "BreweryAppClasses": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:40184;http://localhost:40185"
+    }
+  }
+}

@@ -1,3 +1,5 @@
+using BreweryApp.Classes;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -16,7 +18,7 @@ builder.Services.AddCors(options =>
 		.AllowAnyHeader();
 	});
 });
-
+builder.Services.AddDbContext<BreweryAppContext>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
